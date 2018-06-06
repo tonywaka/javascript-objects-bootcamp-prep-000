@@ -9,7 +9,7 @@ function updatePlaylist(object,artistName,songTitle) {
 updatePlaylist(playlist,'Phil Ochs', "Here's to the State of Mississippi")
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.artistName;
-  console.log(playlist);
+  delete playlist.'Slowdive';
+  return playlist
 }
 removeFromPlaylist(playlist, 'Slowdive')
